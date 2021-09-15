@@ -1,0 +1,17 @@
+{
+  "name": "desafiopokemones",
+  "version": "1.0.0",
+  "description": "creación de API para lectura de información de pokemones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "node",
+    "npm",
+    "promises"
+  ],
+  "author": "Dario Valenzuela",
+  "license": "ISC"
+}
