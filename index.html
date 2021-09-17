@@ -26,11 +26,10 @@
           console.log(pokemones)
           spinner.style.display = 'none'
           pokemones.forEach((p) => {
-            console.log(p.nombre);
             div.innerHTML += `
           <div>
-            <img src="${p.img}" >
-            <p>${p.nombre}</p>
+            <img src="${p.img}" width="100px">
+            <p style="font-size: 0.8rem;">${p.nombre}</p>
           </div>
         `
           })
